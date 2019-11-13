@@ -20,10 +20,16 @@
         <!-- match_parent: se exande en toda la pantalla-->
         <!-- wrap_contect: utiliza lo necesario-->
 
-        <Button
+        <Button android:id="@+id/btnEnter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tócame">
+
+        </Button>
+        <Button android:id="@+id/btnAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About">
 
         </Button>
     </LinearLayout>
